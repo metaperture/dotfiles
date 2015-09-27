@@ -1,0 +1,5 @@
+[user]
+    name = metaperture
+	email = metaperture@gmail.com
+[push]
+	default = simple
