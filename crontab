@@ -1,0 +1,3 @@
+# %M %H %d %m %DoW $CMD
+@reboot sleep 10 && /bin/bash /home/metaperture/.startup.sh
+
