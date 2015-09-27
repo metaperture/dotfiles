@@ -15,8 +15,7 @@ if [ -f /etc/bashrc ]; then
       . /etc/bashrc   # --> Read /etc/bashrc, if present.
 fi
 
-export WORKON_HOME=~/envs
-source /usr/local/bin/virtualenvwrapper.sh
+export PATH="$PATH:/home/metaperture/miniconda3/bin"
 
 #  Automatic setting of $DISPLAY (if not set already).
 
