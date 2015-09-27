@@ -1,3 +1,9 @@
 [dotfiles]
 repository = /home/metaperture/.dotfiles
+ignore = [
+    '.git',
+    '.gitignore',
+    '*.md',
+    '*.swp',
+    '*.pyc']
 
