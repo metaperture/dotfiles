@@ -4,6 +4,7 @@ ignore = [
     '.git',
     '.gitignore',
     '.gitmodules',
+    'bootstrap.sh',
     '*.md',
     '*.swp',
     '*.pyc']

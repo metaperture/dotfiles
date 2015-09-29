@@ -8,6 +8,10 @@ VISUAL=/usr/bin/emacs; export VISUAL
 [ -z "$PS1" ] && return
 
 
+if [ $TERM == xterm ]; then
+    export TERM=xterm-256color
+fi
+
 # interactive definitions
 
 #export PYTHONSTARTUP=/home/metaperture/Projects/startup.py
@@ -245,7 +249,7 @@ function s() {
 # TODO: mem color
 PROMPT_COMMAND="history -a"
 case ${TERM} in
-   *term | xterm | rxvt | linux | screen)
+   *term | xterm* | rxvt | linux | screen)
         PS1="\[\$(load_color)\][\A\[${NC}\] "
         # Time of day (with load info):
         PS1="\[\$(load_color)\][\A\[${NC}\] "
