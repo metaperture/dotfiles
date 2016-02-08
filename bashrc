@@ -19,7 +19,7 @@ if [ -f /etc/bashrc ]; then
       . /etc/bashrc   # --> Read /etc/bashrc, if present.
 fi
 
-export PATH="$PATH:/home/metaperture/miniconda3/bin"
+export PATH="$PATH:$HOME/.miniconda/bin"
 
 #  Automatic setting of $DISPLAY (if not set already).
 
