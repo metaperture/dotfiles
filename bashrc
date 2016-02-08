@@ -118,7 +118,7 @@ ALERT4=${BWhite}${On_Red} # Bold White on red background
 
 date
 if [ -x /usr/games/fortune ]; then
-    /usr/games/fortune -s     # Makes our day a bit more fun.... :-)
+    /usr/games/fortune -s ${HOME}/.fortunes/    # Makes our day a bit more fun.... :-)
 fi
 function _exit() {
     echo -e "${BRed}Hasta la vista, baby${NC}"
