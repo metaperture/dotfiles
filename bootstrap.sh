@@ -5,7 +5,5 @@ bash ./Miniconda3-latest-Linux-x86_64.sh -b -p "$HOME/.miniconda" # in batch mod
 rm ./Miniconda3-latest-Linux-x86_64.sh
 export PATH=$HOME/.miniconda/bin/:$PATH
 eval "$CMDPREFIX pip install dotfiles" # CMDPREFIX might = gssproxy2 -e
-THISDIR=$(readlink -f $(dirname $0))
-echo "cp from $THISDIR/dotfilesrc to ~/.dotfilesrc"
-cp $THISDIR/dotfilesrc ~/.dotfilesrc
+cp $HOME/.dotfiles/dotfilesrc ~/.dotfilesrc
 dotfiles --sync --force
