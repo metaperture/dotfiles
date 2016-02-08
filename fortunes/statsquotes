@@ -1,0 +1,691 @@
+"God created the world in 7 days and we haven't seen much of him since." (God draws \theta from an urn and then is out of the picture)
+-- Gelman
+%
+"People don't go around introducing you to their ex-wives." (why model improvement doesn't
+make it into papers)
+-- Gelman
+%
+"There is no doubt that the grail of efficiency leads to abuse. Programmers waste enormous amounts of time thinking about, or worrying about, the speed of noncritical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil.
+Yet we should not pass up our opportunities in that critical 3%. A good programmer will not be lulled into complacency by such reasoning, he will be wise to look carefully at the critical code; but only after that code has been identified."
+-- Knuth
+%
+"The confdence interval can exclude 0, in which case I can submit it to a really good journal,
+or it can include 0, in which case I can look really hard and throw out some bad data points."
+(an example of decision analysis)
+-- Gelman
+%
+"It would be cool even for people who aren't blind. I would use it. Just because blind people
+can do it... I'm not too proud." (on joysticks as a tool for blind people to do statistics)
+-- Gelman
+%
+"I'll get rid of the well-perfused tissues, get rid of the poorly-perfused tissues. All you are is
+just liver and fat. Probably true for some of you."
+-- Gelman
+%
+"Statistics is said to be the science of defaults. One of our challenges is to defaultize things."
+-- Gelman
+%
+"In my head I have these simulations of Don Rubin and Jennifer Hill running on a loop.
+`What would Jennifer do? What would Don say?'"
+-- Gelman
+%
+"This guy comes to me and says `I have prior information and data, and I'd like to combine
+them, and I heard Bayes is a good way to do that.' Well, that's as good as it gets! Normally
+you want to do Bayes but they won't let you because they're like [in stupid voice] `ugh, it's
+subjective, I'm not allowed to, it's subjective.' But here this guy is saying `I have prior
+information and data and I want to combine them'! I'm like, `I can do that! I was trained to
+do that!'"
+-- Gelman
+%
+"In statistics it's enough for our results to be cool. In psychology they're supposed to be
+correct. In economics they're supposed to be correct and consistent with your ideology."
+-- Gelman
+%
+"We need all g of these things. Any f of them would not be enough." (on a lettered list with
+seven items)
+-- Gelman
+%
+"Sometimes classical statistics gives up. Bayes never gives up...so we're under more responsibility to check our models."
+-- Gelman
+%
+"You have to want to falsify the model. If you love somebody, set them free."
+-- Gelman
+%
+"We could call Bayesian data analysis 'statistics using conditional probability', but that
+wouldn't put the butts in the seats."
+-- Gelman
+%
+"Xiao-Li thinks our notation is better. The dean thinks our notation is better."
+-- Gelman
+%
+"NO, it's inside the exp, you can't touch that."
+-- Gelman
+%
+(models without warning lights) "There are two types of models. Good models, if they don't
+fit, you get a large standard error. Bad models, if the model doesn't fit, it goes ... [deep voice]
+`No problem. I have a great compromise for you."
+-- Gelman
+%
+"As you know from teaching introductory statistics, 30 is infinity."
+-- Gelman
+%
+"It rejects everything, okay? The \chi^2 acceptance region is the goddamn empty set."
+-- Gelman
+%
+"We can imagine there's some sort of thetabase." (on the notion of the true prior)
+-- Gelman
+%
+"More boys are born than girls to compensate for the fact that at any age, boys die more than
+girls. So 55% are boys at the embryo stage, and then we reach an equal sex ratio at age 20,
+which I'm told is convenient, and then eventually you've got grandma by herself ..."
+-- Gelman
+%
+"You can't die twice of something. It's double jeopardy."
+-- Gelman
+%
+"You weren't supposed to be particularly Bayesian here, except in the sense that anything
+reasonable is Bayesian."
+-- Gelman
+%
+"Women are making more than men. That's wrong! Oh wait." (statistically significant
+regression coefficients of an unexpected sign indicate an interaction term is missing)
+-- Gelman
+%
+"Suppose there's someone you want to get to know better, but you have to talk to all her
+friends too. They're like the nuisance parameters."
+-- Gelman
+%
+"Can you forget the last five minutes? Thanks. Including the part where I said to forget the
+last five minutes."
+-- Gelman
+%
+"Why is it Normal? Because that's the only continuous multivariate distribution we have.
+Oh, we have the multivariate t...as if that's a different distribution."
+-- Gelman
+%
+"This is a paper we have, that's making the rounds of getting rejected."
+-- Gelman
+%
+"It's like the joint distribution is a movie, and all you care about is the star, like Robert
+Downey Jr. or whatever."
+-- Gelman
+%
+"It's like you have a big network of variables, and you grab the one you care about, and you
+shake it and shake it."
+-- Gelman
+%
+"Well, of course there's a reason--it's not like the baby doesn't want to come out." (on
+birthday frequencies)
+-- Gelman
+%
+"In cage 1, they all die, and then in cage 2 they all hear about it, and they're like, `Don't eat
+that shit, man.'" (violation of independence assumption in rats data)
+-- Gelman
+%
+"If your height is 0, you're not going to make any money." (intercept terms should be
+meaningful)
+"We economized. People died. And we didn't even save money!" (incremental cost effectiveness ratio)
+-- Gelman
+%
+"Raise your hand if you haven't heard this principle before. Hey, you heard a new principle!"
+-- Gelman
+%
+"I called them and they told me to fuck off, basically." (on trying to get the chicken brain
+data)
+-- Gelman
+%
+"Having the index convey information is like having the lamp hang from the wire. You don't
+want to use an electrical connection as a mechanical connection."
+-- Gelman
+%
+"Exchangeability is a function not just of reality, but of the information you have."
+-- Gelman
+%
+"Center your time predictor; otherwise the intercept will be the logit probability of death in
+the year that Jesus was born."
+-- Gelman
+%
+"The Alexes said you guys had a lot of bad models. They blamed themselves. And I blame
+them too."
+-- Gelman
+%
+"It's not like the door is open. It's like where is the door? I can't even see the wall! Maybe
+this describes most of my research."
+-- Gelman
+%
+"If I'm doing an experiment to save the world, I better use my prior."
+-- Gelman
+%
+"In the grand scheme of things, the kitten is already dead." (all models are wrong)
+-- Gelman
+%
+"But you don't have to be Georg Cantor to know there's always some model that's not in
+your super-model." (on limitations of super-Bayes)
+-- Gelman
+%
+"Inference is not the inverse of a hypothesis test."
+-- Gelman
+%
+"I hope she's plugging my work in her classes!" (after describing Jennifer's work on causal
+inference)
+-- Gelman
+%
+(on priors) "They don't have to be weakly informative. They can just be shitty."
+-- Gelman
+%
+"You can't stand on the beach of the sea of uncertainty with the waves lapping at your ankles.
+You have to jump into the sea and stick your head underwater and blow some bubbles."
+-- Gelman
+%
+"Learn--that's a trendy word."
+-- Gelman
+%
+"Inference is normal science. Model-checking is revolutionary science."
+-- Gelman
+%
+"Why is this chapter different from all other chapters?" (modeling accounting for data collection)
+-- Gelman
+%
+"Whites, ... , blacks, Hispanics, and most of the people in this room." (reading the race
+categories on a graph)
+-- Gelman
+%
+"You guys in the back probably think I play to the front row because they laugh at my jokes.
+But you all could have sat in the front row instead of row 14 or whatever! You don't have to
+show your kiddy card!"
+-- Gelman
+%
+"Maybe we think there's nothing going on because it's education research." (prior beliefs
+about treatment effects)
+-- Gelman
+%
+"It's so great when you guys laugh--it's like blood to a vampire!"
+-- Gelman
+%
+"This is a textbook way too. It's just my textbook."
+-- Gelman
+%
+"Survey weights are like McDonald's chicken nuggets--you don't know what goes into them."
+-- Gelman
+%
+"It's okay to let that thing be zero because it's gettin' exp'd."
+-- Gelman
+%
+"Before you do anything, you gotta take the ... you gotta take the ... " [draws a hangman
+with three letters for L-O-G]
+-- Gelman
+%
+"You take the log so fast that you don't even see the actual data. Plus you take the log
+because you can, because they're all positive."
+-- Gelman
+%
+"Mathematics and computer science are the only two rigorous things left in this society."
+-- Gelman
+%
+"Rubin calls this `sampling importance resampling'which is silly because once you say resampling,
+you must have sampled already.  It's like you say e4. You don't say e2 to e4 because
+of course it was at e2, it's not like it was at e3! [beat] I guess e4 is old-fashioned nowadays. I
+guess I should do something like g3."
+-- Gelman
+%
+"If someone's going to be unfairly attacked, I'd rather it not be me."
+-- Gelman
+%
+"Because cubicity is closed under addition--doesn't that sound good?"
+-- Gelman
+%
+"Tensor products, which are some sort of product. . . of tensors, I believe."
+-- Gelman
+%
+"Sergiy seems like a more serious lecturer, which is good, you get the soft jokes now and then
+next semester it's time to learn some shit."
+-- Gelman
+%
+"You're not going to go to heaven because you only needed two." (on the number of mixture
+components to include)
+-- Gelman
+%
+"I've never done it. I just read about it in my own book."
+-- Gelman
+%
+(Someone asks how to compare models. Gelman writes in giant letters: OUT OF SAMPLE
+PREDICTION ERROR.) "So there's that."
+%
+"Better to have analyzed and lost than never to have analyzed the data at all."
+-- Gelman
+%
+"Hierarchical models: just like what you did before, but the standard errors are a little bit
+fatter."
+-- Gelman
+%
+"Political scientists have no pride. They'll use anything that works. Or doesn't work--it's
+not like they would know."
+-- Gelman
+%
+"You take what someone is doing and pretend they're being Bayesian."
+-- Gelman
+%
+"The full name of theoretical statistics is the theory of applied statistics."
+-- Gelman
+%
+"Statistics is applied statistics."
+-- Gelman
+%
+"The gambler's ruin problem, that's a theory about what happens when you're a gambler."
+-- Gelman
+%
+"Like he advocated plotting a rootogram instead of a histogram. You take the square root
+of the counts, because if the counts follow a Poisson and you ... [gasps, covers mouth] oops,
+I said Poisson!" (Tukey covers his tracks so you only see the procedure, not the model)
+-- Gelman
+%
+"A Bayesian version will usually make things better."
+-- Gelman
+%
+"Essentially, all models are wrong, but some are useful."
+-- George EP Box
+%
+"A man in daily muddy contact with field experiments could not be expected to have much faith
+in any direct assumption of independently distributed normal errors."
+-- George EP Box
+%
+"Statistical criteria should (1) be sensitive to change in the specific factors tested, (2) be
+insensitive to changes, of a magnitude likely to occur in practice, in extraneous factors."
+-- George EP Box
+%
+"Since all models are wrong the scientist cannot obtain a "correct" one by excessive elaboration.
+On the contrary following William of Occam he should seek an economical description of natural
+phenomena. Just as the ability to devise simple but evocative models is the signature of the
+great scientist so overelaboration and overparameterization is often the mark of mediocrity."
+-- George EP Box
+%
+"The researcher hoping to break new ground in the theory of experimental design should involve
+himself in the design of actual experiments. The investigator who hopes to revolutionize decision
+theory should observe and take part in the making of important decisions."
+-- George EP Box
+%
+"We have a large reservoir of engineers (and scientists) with a vast background of engineering know
+how. They need to learn statistical methods that can tap into the knowledge. Statistics used as a
+catalyst to engineering creation will, I believe, always result in the fastest and most economical
+progress..."
+-- George EP Box
+%
+"Above all else show the data."
+-- Tufte
+%
+"Individuals vary, but percentages remain constant. So says the statistician."
+-- Sir Arthur Canon Doyle
+%
+"If the statistics are boring, then you've got the wrong numbers."
+-- Tufte
+%
+"Far better an approximate answer to the right question, which is often vague, than an exact answer
+to the wrong question, which can always be made precise."
+-- Tukey
+%
+"Doing statistics is like doing crosswords except that one cannot know for sure whether one has
+found the solution."
+-- Tukey
+%
+"There is no data that can be displayed in a pie chart, that cannot be displayed BETTER in some other
+type of chart."
+-- Tukey
+%
+"Once upon a time statisticians only explored. Then they learned to confirm exactly - to confirm a few
+things exactly, each under very specific circumstances. As they emphasized exact confirmation, their
+techniques inevitably became less flexible. The connection of the most used techniques with past insights
+was weakened. Anything to which a confirmatory procedure was not explicitly attached was decried as
+'mere descriptive statistics', no matter how much we had learned from it."
+-- Tukey
+%
+"The combination of some data and an aching desire for an answer does not ensure that a reasonable answer
+can be extracted from a given body of data."
+-- Tukey
+%
+"It is the mark of an educated man to look for precision in each class of things just so far as the
+nature of the subject admits."
+-- Aristotle
+%
+"Numerical quantities focus on expected values, graphical summaries on unexpected values."
+-- Tukey
+%
+"Our statistics are at fault: the population has been returned too large. How many men are there
+to a square thousand miles in this country? Hardly one."
+-- Thoreau
+%
+"We must be careful not to confuse data with the abstractions we use to analyze them."
+%
+"It is a capital mistake to theorize before one has data."
+-- Sir Arthur Conan Doyle
+%
+"The sciences do not try to explain, they hardly even try to interpret, they mainly make models. By a model
+is meant a mathematical construct which, with the addition of certain verbal interpretations, describes
+observed phenomena. The justification of such a mathematical construct is solely and precisely that
+it is expected to work."
+-- von Neumann
+%
+"The aim of science is to seek the simplest explanation of complex facts... Seek simplicity and distrust it."
+-- A.N. Whitehead
+%
+"The aim ... is to provide a clear and rigorous basis for determining when a causal ordering can be said to
+hold between two variables or groups of variables in a model... The concepts refer to a model-a system of
+equations-and not to the 'real' world the model purports to describe."
+-- H. Simon
+%
+"No aphorism is more frequently repeated in connection with field trials, than that we must ask Nature few
+questions, or, ideally, one question at a time. The writer is convinced that this view is wholly mistaken.
+Nature, he suggests, will best respond to a logical and carefully thought out questionnaire; indeed, if we
+ask her a single question, she will often refuse to answer until some other topic has been discussed."
+-- Fisher
+%
+"If...we choose a group of social phenomena with no antecedent knowledge of the causation or absence of causation
+among them, then the calculation of correlation coefficients, total or partial, will not advance us a step toward
+evaluating the importance of the causes at work."
+-- Fisher
+%
+"The only relevant test of the validity of a hypothesis is comparison of its predictions with experience."
+-- Milton Friedman
+%
+"An unsophisticated forecaster uses statistics as a drunken man uses lamp-posts--for support rather than illumination."
+-- Andrew Lang
+%
+"God not only plays dice. He also sometimes throws the dice where they cannot be seen."
+-- Stephen William Hawking
+%
+"The most important questions of life are, for the most part, really only problems of probability."
+-- Laplace
+%
+"Cognitive psychology tells us that the unaided human mind is vulnerable to many fallacies and illusions
+because of its reliance on its memory for vivid anecdotes rather than systematic statistics."
+-- Steven Pinker
+%
+"Do not disturb my circles!"
+-- Archimedes
+%
+"Give me a lever and a place to stand and I will move the earth."
+-- Archimedes
+%
+"Plato is my friend — Aristotle is my friend — but my greatest friend is truth."
+-- Newton
+%
+"If I have seen further it is by standing on the shoulders of giants."
+-- Newton
+%
+"Truth is ever to be found in simplicity, and not in the multiplicity and confusion of things."
+-- Newton
+%
+"We are to admit no more causes of natural things than such as are both true and sufficient to explain their appearances."
+-- Newton
+%
+"I would have written a shorter letter, but I did not have the time."
+-- Pascal
+%
+"People almost invariably arrive at their beliefs not on the basis of proof but on the basis of what they find attractive."
+-- Pascal
+%
+"Dull minds are never either intuitive or mathematical."
+-- Pascal
+%
+"...it is rare that mathematicians are intuitive, and that men of intuition are mathematicians,
+because mathematicians wish to treat matters of intuition mathematically, and make themselves ridiculous,
+wishing to begin with definitions and then with axioms, which is not the way to proceed in this kind of reasoning.
+Not that the mind does not do so, but it does it tacitly, naturally, and without technical rules;
+for the expression of it is beyond all men, and only a few can feel it."
+-- Pascal
+%
+"There are then two kinds of intellect: the one able to penetrate acutely and deeply into
+the conclusions of given premises, and this is the precise intellect; the other able
+to comprehend a great number of premises without confusing them, and this is the mathematical intellect.
+The one has force and exactness, the other comprehension. Now the one quality can exist without the other;
+the intellect can be strong and narrow, and can also be comprehensive and weak."
+-- Pascal
+%
+"Those who are accustomed to judge by feeling do not understand the process of reasoning,
+for they would understand at first sight, and are not used to seek for principles. And others, on the contrary,
+who are accustomed to reason from principles, do not at all understand matters of feeling, seeking principles,
+and being unable to see at a glance."
+-- Pascal
+%
+"There is geometry in the humming of the strings, there is music in the spacing of the spheres."
+-- Pythagoras
+%
+"It is not enough to have a good mind. The main thing is to use it well."
+-- Descartes
+%
+"The greatest minds are capable of the greatest vices as well as of the greatest virtues."
+-- Descartes
+%
+"The first precept was never to accept a thing as true until I knew it as such without a single doubt."
+-- Descartes
+%
+"In mathematics the art of asking questions is more valuable than solving problems."
+-- Cantor
+%
+"The essence of mathematics lies entirely in its freedom."
+-- Cantor
+%
+"If one were to bring ten of the wisest men in the world together and ask them what was the most stupid thing in existence,
+they would not be able to discover anything so stupid as astrology."
+-- Hilbert
+%
+"Sometimes it happens that a man's circle of horizon becomes smaller and smaller, and as the radius
+approaches zero it concentrates on one point. And then that becomes his point of view."
+-- Hilbert
+%
+"Keep computations to the lowest level of the multiplication table."
+-- Hilbert
+%
+"Begin with the simplest examples."
+-- Hilbert
+%
+"If you want to inspire confidence, give plenty of statistics--it does not matter that they should be accurate,
+or even intelligible, so long as there is enough of them."
+-- Carroll
+%
+"'And at last we've got to the end of this ideal racecourse! Now that you accept A and B and C and D, of course you accept Z.'
+'Do I?' said the Tortoise innocently. 'Let's make that quite clear. I accept A and B and C and D. Suppose I still refused to accept Z?'
+'Then Logic would take you by the throat, and force you to do it!' Achilles triumphantly replied. 'Logic would tell you,
+"You can't help yourself. Now that you've accepted A and B and C and D, you must accept Z!" So you've no choice, you see.'
+'Whatever Logic is good enough to tell me is worth writing down,' said the Tortoise. 'So enter it in your notebook, please. We will call it
+(E) If A and B and C and D are true, Z must be true.
+Until I've granted that, of course I needn't grant Z. So it's quite a necessary step, you see?'
+'I see,' said Achilles; and there was a touch of sadness in his tone."
+-- Carroll
+%
+"I visualize a time when we will be to robots what dogs are to humans, and I'm rooting for the machines."
+-- Claude Shannon
+%
+"When we talk mathematics, we may be discussing a secondary language built on the primary language of the nervous system."
+-- von Neumann
+%
+"I think that it is a relatively good approximation to truth--which is much too complicated
+to allow anything but approximations--that mathematical ideas originate in empirics."
+-- von Neumann
+%
+"It is just as foolish to complain that people are selfish and treacherous as it is to complain
+that the magnetic field does not increase unless the electric field has a curl. Both are laws of nature."
+-- von Neumann
+%
+"You should call it entropy, for two reasons. In the first place your uncertainty function has been used
+in statistical mechanics under that name, so it already has a name. In the second place, and more important,
+no one really knows what entropy really is, so in a debate you will always have the advantage."
+-- von Neumann, to Claude Shannon
+%
+"Young man, in mathematics you don't understand things. You just get used to them."
+-- von Neumann
+%
+"You don't have to be responsible for the world that you're in."
+-- von Neumann
+%
+"With four parameters I can fit an elephant, and with five I can make him wiggle his trunk."
+-- von Neumann
+%
+"The goys have proven the following theorem…"
+-- von Neumann (Statement at the start of a classroom lecture)
+%
+"If one has really technically penetrated a subject, things that previously seemed in complete contrast,
+might be purely mathematical transformations of each other."
+-- von Neumann
+%
+"If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is."
+-- von Neumann
+%
+"Primary causes are unknown to us; but are subject to simple and constant laws, which may be discovered by observation,
+the study of them being the object of natural philosophy."
+-- Fourier
+%
+"Profound study of nature is the most fertile source of mathematical discoveries."
+-- Fourier
+%
+"Mathematical analysis is as extensive as nature itself; it defines all perceptible relations, measures times, spaces,
+forces, temperatures ; this difficult science is formed slowly, but it preserves every principle which it has once acquired;
+it grows and strengthens itself incessantly in the midst of the many variations and errors of the human mind.
+It's chief attribute is clearness; it has no marks to express confused notations. It brings together phenomena the most diverse,
+and discovers the hidden analogies which unite them."
+-- Fourier
+%
+"The principles of the theory are derived, as are those of rational mechanics, from a very small number of primary facts..."
+-- Fourier
+%
+"We scientists are clever--too clever--are you not satisfied? Is four square miles in one bomb not enough?
+Men are still thinking. Just tell us how big you want it!"
+-- Feynman
+%
+"You can't say A is made of B
+or vice versa.
+All mass is interaction."
+-- Feynman
+%
+"The theoretical broadening which comes from having many humanities subjects on the campus
+is offset by the general dopiness of the people who study these things."
+-- Feynman
+%
+"In this age of specialization men who thoroughly know one field are often incompetent to discuss another.
+The great problems of the relations between one and another aspect of human activity have for this reason
+been discussed less and less in public. When we look at the past great debates on these subjects we feel
+jealous of those times, for we should have liked the excitement of such argument. The old problems,
+such as the relation of science and religion, are still with us, and I believe present as difficult dilemmas as ever,
+but they are not often publicly discussed because of the limitations of specialization."
+-- Feynman
+%
+"Western civilization, it seems to me, stands by two great heritages. One is the scientific spirit of adventure--
+the adventure into the unknown, an unknown which must be recognized as being unknown in order to be explored;
+the demand that the unanswerable mysteries of the universe remain unanswered; the attitude that all is uncertain;
+to summarize it--the humility of the intellect. The other great heritage is Christian ethics--
+the basis of action on love, the brotherhood of all men, the value of the individual — the humility of the spirit.
+
+These two heritages are logically, thoroughly consistent. But logic is not all; one needs one's heart to follow an idea.
+If people are going back to religion, what are they going back to? Is the modern church a place to give comfort to a man who doubts God--
+more, one who disbelieves in God? Is the modern church a place to give comfort and encouragement to the value of such doubts?
+So far, have we not drawn strength and comfort to maintain the one or the other of these consistent heritages
+in a way which attacks the values of the other? Is this unavoidable? How can we draw inspiration to support these
+two pillars of western civilization so that they may stand together in full vigor, mutually unafraid?
+Is this not the central problem of our time?"
+-- Feynman
+%
+"A very great deal more truth can become known than can be proven."
+-- Feynman
+%
+"Hell, if I could explain it to the average person, it wouldn't have been worth the Nobel prize."
+-- Feynman
+%
+"The real problem in speech is not precise language. The problem is clear language. The desire is to have the idea clearly communicated
+to the other person. It is only necessary to be precise when there is some doubt as to the meaning of a phrase,
+and then the precision should be put in the place where the doubt exists. It is really quite impossible to say anything with absolute precision,
+unless that thing is so abstracted from the real world as to not represent any real thing."
+-- Feynman
+%
+"The worthwhile problems are the ones you can really solve or help solve, the ones you can really contribute something to. ...
+No problem is too small or too trivial if we can really do something about it."
+-- Feynman
+%
+"Science is the belief in the ignorance of experts."
+-- Feynman
+%
+"Science alone of all the subjects contains within itself the lesson of the danger of belief
+in the infallibility of the greatest teachers of the preceding generation."
+-- Feynman
+%
+"Do not read so much, look about you and think of what you see there."
+-- Feynman
+%
+"...if you're doing an experiment, you should report everything that you think might make it invalid--
+not only what you think is right about it; other causes that could possibly explain your results;
+and things you thought of that you've eliminated by some other experiment, and how they worked--
+to make sure the other fellow can tell they have been eliminated."
+-- Feynman
+%
+"We've learned from experience that the truth will come out. Other experimenters will repeat your experiment
+and find out whether you were wrong or right. Nature's phenomena will agree or they'll disagree with your theory.
+And, although you may gain some temporary fame and excitement, you will not gain a good reputation as a scientist
+if you haven't tried to be very careful in this kind of work. And it's this type of integrity,
+this kind of care not to fool yourself, that is missing to a large extent in much of the research in cargo cult science."
+-- Feynman
+%
+"The first principle is that you must not fool yourself — and you are the easiest person to fool."
+-- Feynman
+%
+"We are not to tell nature what she’s gotta be. ... She's always got better imagination than we have."
+-- Feynman
+%
+"Nature isn't classical, dammit, and if you want to make a simulation of nature, you'd better make it quantum mechanical, and by golly it's a wonderful problem, because it doesn't look so easy."
+-- Feynman
+%
+"God was always invented to explain mystery. God is always invented to explain those things that you do not understand.
+Now, when you finally discover how something works, you get some laws which you're taking away from God; you don't need him anymore.
+But you need him for the other mysteries. So therefore you leave him to create the universe because we haven't figured that out yet;
+you need him for understanding those things which you don't believe the laws will explain, such as consciousness,
+or why you only live to a certain length of time--life and death--stuff like that.
+God is always associated with those things that you do not understand.
+Therefore I don't think that the laws can be considered to be like God because they have been figured out."
+-- Feynman
+%
+"What I cannot create, I do not understand.
+Know how to solve every problem that has been solved."
+-- Feynman
+%
+"Einstein was a giant. His head was in the clouds, but his feet were on the ground. But those of us who are not that tall have to choose!"
+-- Feynman
+%
+"From a long view of the history of mankind--seen from, say, ten thousand years from now--
+there can be little doubt that the most significant event of the 19th century will be judged as Maxwell's discovery
+of the laws of electrodynamics. The American Civil War will pale into provincial insignificance
+in comparison with this important scientific event of the same decade."
+-- Feynman
+%
+"The 'paradox' is only a conflict between reality and your feeling of what reality 'ought to be.'"
+-- Feynman
+%
+"Nature uses only the longest threads to weave her patterns, so each small piece of her fabric
+reveals the organization of the entire tapestry."
+-- Feynman
+%
+"I don't know what's the matter with people: they don't learn by understanding;
+they learn by some other way--by rote or something. Their knowledge is so fragile!"
+-- Feynman
+%
+"The electron is a theory we use; it is so useful in understanding the way nature works that we can almost call it real."
+-- Feynman
+%
+"Since then I never pay attention to anything by "experts". I calculate everything myself."
+-- Feynman
+%
+"I'll never make that mistake again, reading the experts' opinions. Of course, you only live one life,
+and you make all your mistakes, and learn what not to do, and that's the end of you."
+-- Feynman
+%
+"For a successful technology, reality must take precedence over public relations, for nature cannot be fooled."
+-- Feynman
+%
+"You can know the name of that bird in all the languages of the world, but when you're finished,
+you'll know absolutely nothing whatever about the bird. You'll only know about humans in different places, and what they call the bird...
+I learned very early the difference between knowing the name of something and knowing something."
+-- Feynman
+%
+"Doubting the great Descartes...was a reaction I learned from my father: Have no respect whatsoever for authority;
+forget who said it and instead look what he starts with, where he ends up, and ask yourself, 'Is it reasonable?'"
+-- Feynman
+%
+"I don't know anything, but I do know that everything is interesting if you go into it deeply enough."
+-- Feynman
+%
