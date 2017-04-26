@@ -117,6 +117,7 @@ ALERT3=${Red}
 ALERT4=${BWhite}${On_Red} # Bold White on red background
 
 date
+
 if [ -x /usr/games/fortune ]; then
     /usr/games/fortune -s     # Makes our day a bit more fun.... :-)
 fi
@@ -140,8 +141,8 @@ fi
 # Test user type:
 if [[ ${USER} == "root" ]]; then
     SU=${ALERT4}           # User is root.
-elif [[ ${USER} != $(logname) ]]; then
-    SU=${ALERT2}          # User is not login user.
+#elif [[ ${USER} != $(logname) ]]; then
+#    SU=${ALERT2}          # User is not login user.
 elif [[ -n $(groups ${USER} | grep '\bsudo\b') ]]; then
     SU=${ALERT1}         # User can sudo
 else
@@ -250,13 +251,14 @@ function s() {
 PROMPT_COMMAND="history -a"
 case ${TERM} in
    *term | xterm* | rxvt | linux | screen)
-        PS1="\[\$(load_color)\][\A\[${NC}\] "
         # Time of day (with load info):
         PS1="\[\$(load_color)\][\A\[${NC}\] "
         # User@Host (with connection type info):
         PS1=${PS1}"\[${SU}\]\u\[${NC}\]@\[${CNX}\]\h\[${NC}\] "
         # PWD (with 'disk space' info):
         PS1=${PS1}"\[\$(disk_color)\]\w\[${NC}\]] "
+        # wrap line if < 80 chars
+        PS1=${PS1}"\$([[ \$(tput cols) -lt 80 ]] && printf '\n\n')"
         # Prompt (with 'job' info):
         PS1=${PS1}"\[\$(mem_color)\]>\[${NC}\] "
         # Set title of current xterm:
