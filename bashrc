@@ -178,22 +178,26 @@ function load_color() {
     fi
 }
 
-export MAXMEM=`free | grep "M" | awk '{ printf $2 }'`
-function memory_used() {
-    local usedmem=`free | grep "-" | awk '{ printf $3 }'`
-    local usedmem100=`expr $usedmem \* 100`
-    echo -en `expr $usedmem100 / $MAXMEM`
+export MAXMEM=$(awk '/MemTotal/{print $2}' /proc/meminfo)
+SMEM=$(( 400*${MAXMEM} ))
+MMEM=$(( 600*${MAXMEM} ))
+LMEM=$(( 800*${MAXMEM} ))
+XMEM=$(( 950*${MAXMEM} ))
+
+function mem() {
+    local SYSMEM=$(free -b | awk 'BEGIN { FS = " " } ; FNR == 3 {print $3}')
+    echo $((10#$SYSMEM))
 }
 
 function mem_color() {
-    local mem_percent=$(memory_used)
-    if [ ${mem_percent} -gt 95 ]; then
+    local SYSMEM=$(mem)
+    if [ ${SYSMEM} -gt ${XMEM} ]; then
         echo -en ${ALERT4}
-    elif [ ${mem_percent} -gt 80 ]; then
+    elif [ ${SYSMEM} -gt ${LMEM} ]; then
         echo -en ${ALERT3}
-    elif [ ${mem_percent} -gt 60 ]; then
+    elif [ ${SYSMEM} -gt ${MMEM} ]; then
         echo -en ${ALERT2}
-    elif [ ${mem_percent} -gt 40 ]; then
+    elif [ ${SYSMEM} -gt ${SMEM} ]; then
         echo -en ${ALERT1}
     else
         echo -en ${NORMAL}
