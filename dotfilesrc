@@ -1,5 +1,5 @@
 [dotfiles]
-repository = /home/metaperture/.dotfiles
+repository = ~/.dotfiles
 ignore = [
     '.git',
     '.gitignore',

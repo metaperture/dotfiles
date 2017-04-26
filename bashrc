@@ -19,7 +19,7 @@ if [ -f /etc/bashrc ]; then
       . /etc/bashrc   # --> Read /etc/bashrc, if present.
 fi
 
-export PATH="$PATH:/home/metaperture/miniconda3/bin"
+export PATH="$PATH:$HOME/.miniconda/bin"
 
 #  Automatic setting of $DISPLAY (if not set already).
 
@@ -119,7 +119,7 @@ ALERT4=${BWhite}${On_Red} # Bold White on red background
 date
 
 if [ -x /usr/games/fortune ]; then
-    /usr/games/fortune -s     # Makes our day a bit more fun.... :-)
+    /usr/games/fortune -s ${HOME}/.fortunes/    # Makes our day a bit more fun.... :-)
 fi
 function _exit() {
     echo -e "${BRed}Hasta la vista, baby${NC}"
@@ -152,7 +152,7 @@ fi
 NCPU=$(grep -c 'processor' /proc/cpuinfo)    # Number of CPUs
 SLOAD=$(( 100*${NCPU} ))        # Small load
 MLOAD=$(( 200*${NCPU} ))        # Medium load
-LLOAD=$(( 200*${NCPU} ))        # Large load
+LLOAD=$(( 300*${NCPU} ))        # Large load
 XLOAD=$(( 400*${NCPU} ))        # Xlarge load
 
 # Returns system load as percentage, i.e., '40' rather than '0.40)'.
@@ -178,26 +178,22 @@ function load_color() {
     fi
 }
 
-export MAXMEM=$(awk '/MemTotal/{print $2}' /proc/meminfo)
-SMEM=$(( 400*${MAXMEM} ))
-MMEM=$(( 600*${MAXMEM} ))
-LMEM=$(( 800*${MAXMEM} ))
-XMEM=$(( 950*${MAXMEM} ))
-
-function mem() {
-    local SYSMEM=$(free -b | awk 'BEGIN { FS = " " } ; FNR == 3 {print $3}')
-    echo $((10#$SYSMEM))
+export MAXMEM=`free | grep "M" | awk '{ printf $2 }'`
+function memory_used() {
+    local usedmem=`free | grep "-" | awk '{ printf $3 }'`
+    local usedmem100=`expr $usedmem \* 100`
+    echo -en `expr $usedmem100 / $MAXMEM`
 }
 
 function mem_color() {
-    local SYSMEM=$(mem)
-    if [ ${SYSMEM} -gt ${XMEM} ]; then
+    local mem_percent=$(memory_used)
+    if [ ${mem_percent} -gt 95 ]; then
         echo -en ${ALERT4}
-    elif [ ${SYSMEM} -gt ${LMEM} ]; then
+    elif [ ${mem_percent} -gt 80 ]; then
         echo -en ${ALERT3}
-    elif [ ${SYSMEM} -gt ${MMEM} ]; then
+    elif [ ${mem_percent} -gt 60 ]; then
         echo -en ${ALERT2}
-    elif [ ${SYSMEM} -gt ${SMEM} ]; then
+    elif [ ${mem_percent} -gt 40 ]; then
         echo -en ${ALERT1}
     else
         echo -en ${NORMAL}
@@ -240,8 +236,12 @@ function job_color() {
 }
 
 function s() {
-    echo `load`
-    echo `mem`
+    # status
+    local m=$(memory_used)
+    local l=$(load)
+    local d=$(command df -P "$PWD" |
+        awk 'END {print $5} {sub(/%/,"")}')
+    echo "$m% mem, $l% load ($NCPU), $d% disk"
 }
 
 # Adds some text in the terminal frame (if applicable).
@@ -886,6 +886,11 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+# Local config, if exists
+if [ -f ~/.bashrc_local ]; then
+    . ~/.bashrc_local
+fi
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -896,6 +901,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
 
 
